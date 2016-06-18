@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Comparing both files let me see all the changes that had been made to the new version. 
+It was then possible to examine each one until the problem had been found. 
+This was benificial, as there was no need to do the comparison manually.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It can help with bug hunting.
+You can roll back to previous versions if there are problems, and see the changes that could have caused the problems.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+It gives control over when the commits are made.
+They can be used to save significant logical changes, with notes on what the changes were.
+Commits can be made when a version is working, where as a timed commit may save a non working version.
+There's a chance that the user could forget to commit a change, which won't happen with timed commits.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is used for source code, so a project may have multiple files that are edited for one meaningful change. It makes sense to be able to commit all of them at once, with notes on the changes. Google docs is more likely to be used for editing single documents, so it makes less sense for multiple documents to be changed.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows the history of the commits that have been saved, with a unique ID for each one.
+The git diff command can then be used to compare the two commits, with git diff old_ID new_ID
+
+How might using version control make you more confident to make changes that could break something?
+
+Any changes made can be recovered from by reverting to a previous commit.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to attempt a sample test project, using git to set up a repository.
+This will probably be a simple web page.

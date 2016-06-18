@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It adds a hidden directory .git, which contains the data for the file history of the commits.
+Before doing this git does not track any changes.
+
