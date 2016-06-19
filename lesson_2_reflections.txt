@@ -11,3 +11,10 @@ The staging area allows us to coose which files are going to be added to a commi
 How can you use the staging area to make sure you have one commit per logical change?
 
 If multiple files have been changed, and it would make sense to save different changes as different commits, then they can be added to the staging area one at a time, and commited separately. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Adding new experimental features, without breaking the existing code base.
+Making a translated verion of a program, while keeping the normal version.
+
+ 
