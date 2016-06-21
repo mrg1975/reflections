@@ -20,3 +20,7 @@ Making a translated verion of a program, while keeping the normal version.
 How do the diagrams help you visualize the branch structure?
 
 The diagram allows me to trace the branch structure, and is easier to follow than a list.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The changes made in each branch are combined into one working version. The branches merge into one commit, which then becomes the master.
