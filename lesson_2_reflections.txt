@@ -24,3 +24,7 @@ The diagram allows me to trace the branch structure, and is easier to follow tha
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The changes made in each branch are combined into one working version. The branches merge into one commit, which then becomes the master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+If there are no conflicts automatic merging is faster.
