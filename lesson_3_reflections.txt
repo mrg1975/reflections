@@ -5,3 +5,11 @@ Remote repositories allow multiple users to work on a project, and can also be u
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Many updates require multiple commits to add features. It would be better to push these together when the change is complete, so the Github version doesn't hold incomplete versions.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is Githubs mechanism for cloning a repository on it's own servers. It's used to clone a repository while giving credit to the original repository.
+
+Clones are copies of repositories, and are best used locally.
+
+Branches are used to develop different versions of a project, or to allow changes to be made without breaking the master branch. Changes can then be mergerd into the master branch.
