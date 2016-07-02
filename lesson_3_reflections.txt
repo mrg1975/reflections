@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local? 
 
 Remote repositories allow multiple users to work on a project, and can also be used to share the project publicly. It also provides an off site back up, and provides a central storage location if you work from multiple machines.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Many updates require multiple commits to add features. It would be better to push these together when the change is complete, so the Github version doesn't hold incomplete versions.
