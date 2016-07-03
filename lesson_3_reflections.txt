@@ -13,3 +13,7 @@ A fork is Githubs mechanism for cloning a repository on it's own servers. It's u
 Clones are copies of repositories, and are best used locally.
 
 Branches are used to develop different versions of a project, or to allow changes to be made without breaking the master branch. Changes can then be mergerd into the master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You may have to work without internet access, and would still be able to refer to the most recent build.
