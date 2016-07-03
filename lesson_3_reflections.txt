@@ -17,3 +17,9 @@ Branches are used to develop different versions of a project, or to allow change
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 You may have to work without internet access, and would still be able to refer to the most recent build.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Suggested changes could be emailed, with one person being responsible for the updates, and deciding on conflicting code. This would be more work for one person, and the project would stall if the were not available to update the changes.
+
+It could be simpler than learning Github, but would be less efficient in the future.
